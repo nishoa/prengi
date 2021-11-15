@@ -1,0 +1,38 @@
+.header {
+    padding: 19px 0 16px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__img {
+        margin-right: 11px;
+    }
+    p {
+        margin-top: 3px;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+    &__link {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        text-decoration: none;
+        &:hover {
+            color: #00c2f0;
+        }
+    }
+    &__mail {
+        line-height: 1;
+    }
+}
