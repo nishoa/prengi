@@ -1,0 +1,42 @@
+.about {
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+        // width: 31.5%;
+        min-height: 255px;
+        border: 1px solid #ececec;
+        background: url('../icons/about/question.png') no-repeat;
+        background-position: bottom right;
+        padding: 0 50px 36px 50px;
+        &-answer {
+            background: url('../icons/about/answer.png') no-repeat;
+            background-position: bottom right;
+            margin-top: 37px;
+        }
+    }
+    &__text {
+        color: #393939;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+        &-bold {
+            font-weight: 700;
+        }
+    }
+    &__arrows {
+        margin-top: 50px;
+        text-align: center;
+    }
+    &__title {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

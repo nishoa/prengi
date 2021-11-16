@@ -26,6 +26,11 @@
             }
         }
     }
+    .about {
+        &__item {
+            width: 31.5%;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -164,6 +169,19 @@
             width: 210px;
         }
     }
+    .about {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+        }
+        &__item {
+            width: 360px;
+            &-answer {
+                margin: 0;
+            }
+        }
+    }
 }
 
 @media (max-width:576px) {
@@ -198,6 +216,11 @@
             &-dots {
                 bottom: 40px;
             }
+        }
+    }
+    .about {
+        &__item {
+            width: 300px;
         }
     }
 }
