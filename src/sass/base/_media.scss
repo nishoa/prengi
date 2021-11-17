@@ -83,6 +83,14 @@
             }
         }
     }
+    .advantages {
+        &__block {
+            min-height: 50%;
+        }
+        &__text {
+            padding: 0 2vw;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -232,6 +240,15 @@
             }
         }
     }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 75%;
+        }
+    }
 }
 
 @media (max-width:576px) {
@@ -271,6 +288,14 @@
     .about {
         &__item {
             width: 300px;
+        }
+    }
+    .advantages {
+        &__item {
+            width: 90%;
+        }
+        &__text {
+            font-size: 20px;
         }
     }
 }

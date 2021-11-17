@@ -19,9 +19,12 @@ p {
     margin: 0;
 }
 
+@import 'blocks/title';
+
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/about';
 @import 'blocks/presentation';
+@import 'blocks/advantages';
 
 @import 'base/media';
