@@ -31,6 +31,11 @@
             width: 31.5%;
         }
     }
+    .data {
+        &__text {
+            width: 98%;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -89,6 +94,18 @@
         }
         &__text {
             padding: 0 2vw;
+        }
+    }
+    .data {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__title {
+            top: 60px;
+        }
+        &__cloud, &__server {
+            height: 540px;
+            width: 100%;
         }
     }
 }
@@ -248,6 +265,19 @@
         &__item {
             width: 75%;
         }
+        &__title {
+            padding: 0 12vw;
+        }
+    }
+    .data {
+        &__title {
+            width: 100%;
+            top: 50px;
+
+        }
+        &__cloud, &__server {
+            height: 520px;
+        }
     }
 }
 
@@ -255,6 +285,15 @@
     .container {
         width: 100%;
         padding: 0 10px;
+    }
+    .title {
+        font-size: 25px;
+        &_left {
+            font-size: 23px;
+        }
+        &_right {
+            font-size: 23px;
+        }
     }
     .promo {
         &__menu {
@@ -296,6 +335,27 @@
         }
         &__text {
             font-size: 20px;
+        }
+    }
+    .data {
+        &__title {
+            font-size: 24px;
+        }
+        &__cloud {
+            padding-right: 30px;
+            &::after {
+                right: 20px;
+                height: 205px;
+                width: 205px;
+            }
+        }
+        &__server {
+            padding-left: 30px;
+            &::after {
+                left: 20px;
+                height: 205px;
+                width: 205px;
+            }
         }
     }
 }

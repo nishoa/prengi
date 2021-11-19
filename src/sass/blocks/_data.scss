@@ -1,0 +1,69 @@
+.data {
+    min-height: 580px;
+    position: relative;
+    &__wrapper {
+        display: flex;
+    }
+    &__cloud {
+        background: url('../img/bg/data_cloud.jpg') center center/cover no-repeat;
+        width: 50%;
+        height: 580px;
+        display: flex;
+        align-items: center;
+        padding-right: 80px;
+        justify-content: flex-end;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 167px;
+            height: 167px;
+            background-color: #00c2f0;
+            opacity: 0.3;
+            top: 52%; 
+            transform: translate(0, -50%);
+            right: 40px;
+        }
+    }
+    &__title {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+    &__server {
+        background: url('../img/bg/data_server.jpg') center center/cover no-repeat;
+        width: 50%;
+        height: 580px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 167px;
+            height: 167px;
+            background-color: #00c2f0;
+            opacity: 0.3;
+            top: 52%; 
+            transform: translate(0, -50%);
+            left: 40px;
+        }
+    }
+    &__text {
+        position: relative;
+        width: 480px;
+        z-index: 1;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        &_right {
+            text-align: right;
+        }
+    }
+}

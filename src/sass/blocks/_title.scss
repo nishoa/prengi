@@ -7,4 +7,12 @@
     &_black {
         color: #393939;
     }
+    &_left {
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &_right {
+        text-align: right;
+        text-transform: uppercase;
+    }
 }
