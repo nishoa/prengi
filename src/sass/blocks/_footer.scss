@@ -1,0 +1,54 @@
+.footer {
+    padding: 50px 0 40px 0;
+    background-color: #0082a1;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: left;
+    }
+    &__logo {
+        margin: 20px 0 20px 0;
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: left;
+        max-width: 380px;
+        line-height: 21px;
+    }
+    &__link {
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        // line-height: 19px;
+        line-height: 24px;
+        text-align: left;
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__devider {
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+        margin: 44px 0 36px 0;
+    }
+    &__policy {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: center;
+        line-height: 21px;
+    }
+}

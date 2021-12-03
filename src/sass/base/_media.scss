@@ -108,6 +108,15 @@
             width: 100%;
         }
     }
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+        &__item {
+            width: 45%;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -277,6 +286,28 @@
         }
         &__cloud, &__server {
             height: 520px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__item {
+            width: 70%;
+        }
+        &__logo {
+            margin: 20px auto 20px auto;
+            display: block;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            max-width: none;
+        }
+        &__link {
+            text-align: center;
         }
     }
 }
